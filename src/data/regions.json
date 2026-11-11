@@ -1,0 +1,153 @@
+{
+  "groups": [
+    { "id": "americas", "name": "The Americas", "blurb": "North, Central and South America with the Caribbean" },
+    { "id": "europe", "name": "Europe", "blurb": "From the Atlantic coast to the Ural mountains" },
+    { "id": "asia", "name": "Asia", "blurb": "The largest continent, split into six regions" },
+    { "id": "africa", "name": "Africa", "blurb": "Fifty-four countries across five regions" },
+    { "id": "oceania", "name": "Oceania", "blurb": "Australia, New Zealand and the Pacific islands" },
+    { "id": "cross-regional", "name": "Cross-regional", "blurb": "Groupings that ignore continent borders" }
+  ],
+  "regions": [
+    {
+      "id": "north-america",
+      "name": "North America",
+      "group": "americas",
+      "continent": "north-america",
+      "description": "Canada, the United States and Mexico."
+    },
+    {
+      "id": "central-america",
+      "name": "Central America",
+      "group": "americas",
+      "continent": "north-america",
+      "description": "The isthmus linking North and South America."
+    },
+    {
+      "id": "caribbean",
+      "name": "Caribbean",
+      "group": "americas",
+      "continent": "north-america",
+      "description": "Island nations of the Caribbean Sea."
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "group": "americas",
+      "continent": "south-america",
+      "description": "Twelve countries from the Andes to the Amazon."
+    },
+    {
+      "id": "western-europe",
+      "name": "Western Europe",
+      "group": "europe",
+      "continent": "europe",
+      "description": "France, Germany, the Low Countries, Austria and the Alps."
+    },
+    {
+      "id": "northern-europe",
+      "name": "Northern Europe",
+      "group": "europe",
+      "continent": "europe",
+      "description": "Scandinavia, the Baltic states, the British Isles and Iceland."
+    },
+    {
+      "id": "southern-europe",
+      "name": "Southern Europe",
+      "group": "europe",
+      "continent": "europe",
+      "description": "The Iberian, Italian and Balkan peninsulas plus Mediterranean islands."
+    },
+    {
+      "id": "eastern-europe",
+      "name": "Eastern Europe",
+      "group": "europe",
+      "continent": "europe",
+      "description": "From Poland and Czechia across to Russia and Ukraine."
+    },
+    {
+      "id": "western-asia",
+      "name": "Western Asia",
+      "group": "asia",
+      "continent": "asia",
+      "description": "Anatolia, the Levant, the Caucasus and the Arabian Peninsula."
+    },
+    {
+      "id": "central-asia",
+      "name": "Central Asia",
+      "group": "asia",
+      "continent": "asia",
+      "description": "The five landlocked countries between the Caspian Sea and China."
+    },
+    {
+      "id": "southern-asia",
+      "name": "Southern Asia",
+      "group": "asia",
+      "continent": "asia",
+      "description": "The Indian subcontinent and its Himalayan and island neighbours."
+    },
+    {
+      "id": "eastern-asia",
+      "name": "Eastern Asia",
+      "group": "asia",
+      "continent": "asia",
+      "description": "China, Japan, the Koreas and Mongolia."
+    },
+    {
+      "id": "south-eastern-asia",
+      "name": "Southeast Asia",
+      "group": "asia",
+      "continent": "asia",
+      "description": "The Indochinese peninsula and the Malay Archipelago."
+    },
+    {
+      "id": "northern-africa",
+      "name": "Northern Africa",
+      "group": "africa",
+      "continent": "africa",
+      "description": "The Mediterranean coast from Morocco to Egypt, plus Sudan."
+    },
+    {
+      "id": "western-africa",
+      "name": "Western Africa",
+      "group": "africa",
+      "continent": "africa",
+      "description": "The Sahel and the Gulf of Guinea coast."
+    },
+    {
+      "id": "eastern-africa",
+      "name": "Eastern Africa",
+      "group": "africa",
+      "continent": "africa",
+      "description": "The Horn of Africa, the Great Lakes and the Indian Ocean islands."
+    },
+    {
+      "id": "central-africa",
+      "name": "Central Africa",
+      "group": "africa",
+      "continent": "africa",
+      "description": "The Congo basin and the eastern Gulf of Guinea shore."
+    },
+    {
+      "id": "southern-africa",
+      "name": "Southern Africa",
+      "group": "africa",
+      "continent": "africa",
+      "description": "The southern tip of the continent, from Namibia to Mozambique."
+    },
+    {
+      "id": "oceania",
+      "name": "Oceania",
+      "group": "oceania",
+      "continent": "oceania",
+      "description": "Australia, New Zealand, Melanesia, Micronesia and Polynesia."
+    },
+    {
+      "id": "middle-east",
+      "name": "Middle East",
+      "group": "cross-regional",
+      "continent": "asia",
+      "description": "A cross-regional grouping spanning Western Asia and Northern Africa.",
+      "additionalMembers": ["BHR", "CYP", "EGY", "IRN", "IRQ", "ISR", "JOR", "KWT", "LBN", "OMN", "PSE", "QAT", "SAU", "SYR", "TUR", "ARE", "YEM"]
+    }
+  ]
+}
